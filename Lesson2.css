@@ -1,0 +1,74 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h11 {
+    text-align: left;
+    font-size: 50px;
+    margin-left: 440px;
+
+}
+.h12 {
+    text-align: left;
+    font-size: 50px;
+    margin-left: 440px;
+    margin-right: 440px;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 440px;
+    margin-right: 440px;
+}
+
+.h21 {
+    font-size: 40px;
+    margin-left: 440px;
+}
+
+.h22 {
+    font-size: 40px;
+    margin-left: 440px; 
+    margin-right: 330px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-left: 440px;
+}
+
+.hi {
+    margin: 50px 800px 10px;
+}
+
+a {
+    color: red;
+    
+}
+
+/* .container_swap{
+
+    width: 400px;
+    
+}
+    
+.div_left{
+    
+    width: 200px;
+    
+    float: left;
+    
+    text-align: center;
+    
+}
+    
+.div_right{
+    
+    width: 200px;
+    
+    float: left;
+    
+    text-align: center;
+    
+} */
+
