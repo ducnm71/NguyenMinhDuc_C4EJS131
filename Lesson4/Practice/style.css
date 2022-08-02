@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h1 {
+    color: brown;
+    padding: 20px;
+    border-top: 4px double brown;
+    border-bottom: 4px double brown;
+    background-color: rgb(250, 222, 226);
+    margin-right: 1350px;
+    
+}
+span {
+    color: red;
+}
+
+.div3 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.div31 {
+    padding: 20px;
+    border: 3px solid blue;
+    margin-right: 1400px;
+    background-color: rgb(180, 208, 250);
+    
+}
+.div32 {
+    padding: 20px;
+    border: 3px solid blue;
+    margin-right: 1400px;
+    background-color: rgb(180, 208, 250);
+    margin-top: 20px;
+}  
+
+h3 {
+    color: blue;
+}
