@@ -4,9 +4,11 @@ div {
     height: 50px;
     background-color: deepskyblue;
     margin-top: -8px;
+    position: relative;
 }
 ul {
     margin-left: 1546px;
+    
 }
 li {
     display: inline-block; 
@@ -18,7 +20,9 @@ li a {
     line-height: 50px;
     padding: 0 15px;
     display: inline-block;
+    
 }
 li:hover {
     background-color: rgba(7, 7, 254, 0.3);
+    display: inline-block;
 }

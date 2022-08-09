@@ -1,0 +1,65 @@
+
+.div1 {
+    display: flex;
+    
+}
+img {
+    margin-left: 10px;
+}
+
+#login {
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 130px;
+    height: 40px;
+    border: 0px solid;
+    border-radius: 100px;
+    background-color: rgb(4 170 109);
+    text-align: center;
+    text-decoration: none;
+    line-height: 38px;
+}
+
+.div1 #login:hover {
+    background-color: rgb(5, 147, 95);
+}
+.div11 {
+    padding: 25px 0px 0px 168rem;
+}
+
+.div2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #282a35;
+    height: 50px;
+}
+
+li {
+    display: inline-flex;
+}
+li a {
+    color: #f1f1f1;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    margin-left: 40px;
+    display: inline-block;  
+}
+.div21 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.div22 {
+    margin-left: 920px;
+    font-size: 20px;
+}
+li a:hover {
+    color: #f1f1f1;
+    background-color: rgb(4 170 109);
+    text-decoration: none;
+}
+
+
