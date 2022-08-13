@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+}
+img {
+    width: 415px;
+    height: 300px;
+}
+.header {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    margin-left: 1200px;
+    align-items: center;
+}
+.header span {
+    margin-left: 30px;
+}
+.header ul li {
+    margin-left: 20px;
+}
+.header #login {
+    display: flex;
+    width: 90px;
+    height: 50px;
+    border: 0px solid;
+    background-color: #0080ff;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.header #signup {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #0080ff;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+} 
+.content .content1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( 180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100% );;
+}  
+.content .content1 h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.content .content1 h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 100px;
+}
+.content .content2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+.content .content2 .container td div {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 415px;
+    height: 360px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.content .content2 .container td div span {
+    line-height: 60px;
+}
+.content .content2 .head {
+    text-align: center;
+    font-size: 27px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.content .content2 #showall {
+    display: flex;
+    width: 140px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 2px;
+    padding-left: 12px;
+    margin-top: 40px;
+}
+.content .content2 #showall:hover {
+    background-color: #FF0000;
+}
+
+.content .content3 {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100% );
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content .content3 h1 {
+    font-size: 60px;
+}
+.content .content3 h5 {
+    font-size: 19px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.content .content3 ul {
+    display: flex;
+    list-style: none;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.content .content3 ul li {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-shadow: 2px 2px 1px #1f1f1f;
+}
+.footer {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+}   
