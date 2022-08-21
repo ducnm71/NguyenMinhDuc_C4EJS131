@@ -1,5 +1,7 @@
+
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 img {
     width: 415px;
@@ -83,7 +85,6 @@ img {
 }
 .content .content2 .container td div {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     width: 415px;
