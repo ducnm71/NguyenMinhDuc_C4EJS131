@@ -87,7 +87,27 @@ if (updateObject == 'yes') {
                     bai1[y].artist = prompt('What is new value of artist? ');
                 }
                 else {
-                    bai1[y].tracks = addtrack();
+                    let ques2_2 = prompt('Update all of tracks or each factor in tracks?');
+                    if ( ques2_2 == 'all of tracks') {
+                        bai1[y].tracks = addtrack();
+                    }
+                    else {
+                        let ques2_2_1 = prompt('What factor do you want to update in tracks?');
+                        switch (ques2_2_1) {
+                            case bai1[y].tracks[0]:
+                                bai1[y].tracks.splice(0,1);
+                                bai1[y].tracks.unshift(prompt('Update new track 1'));
+                                break;
+                            case bai1[y].tracks[1]:
+                                bai1[y].tracks.splice(1,1);
+                                bai1[y].tracks.push(prompt('Update new track 2')); 
+                                break;
+                            case bai1[y].tracks[2]: 
+                                bai1[y].tracks.splice(2,1);
+                                bai1[y].tracks.push(prompt('Update new track 3')); 
+                                break;
+                        }  
+                    }
                 }
                 break;
             }
