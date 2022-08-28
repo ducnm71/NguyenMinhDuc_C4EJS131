@@ -38,17 +38,18 @@
 // for ( let i in student) {
 //     console.log(`${i}: ${student[i]}`);
 // }
-const bai1 = {
-    id1: {
-        albumTittle: 'Give it to me',
-        artist: 'Son Tung MTP',
-        tracks: [track1, track2, track3 ]
-    }
-}
+// const bai1 = {
+//     id1: {
+//         albumTittle: 'Give it to me',
+//         artist: 'Son Tung MTP',
+//         tracks: [track1, track2, track3 ]
+//     }
+// }
 
-bai1 = prompt('Nhap value')
-// albumTittle: prompt('Enter new albumTittle'),
-// artist: prompt('Enter new artist'),
-// track: prompt('Enter new track')
+// bai1 = prompt('Nhap value')
+// // albumTittle: prompt('Enter new albumTittle'),
+// // artist: prompt('Enter new artist'),
+// // track: prompt('Enter new track')
 
-let a = prompt('nhap')
+// let a = prompt('nhap')
+
