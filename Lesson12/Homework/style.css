@@ -1,0 +1,110 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.bd {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    max-height: 1000px;
+    border: 2px gainsboro solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+button {
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    background-color: rgb(151, 70, 226);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    
+}
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: gainsboro;
+}    
+.header h1 {
+    font-size: 27px;
+    font-weight: 200;
+}
+.header h2 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: -8px;
+    margin-bottom: 20px;
+}
+.header input {
+    margin-bottom: 28px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid gainsboro;
+    font-size: 15px;
+    border-radius: 3px 0 0 3px;
+}
+#finds {
+    display: flex;
+}
+
+#finds button {
+    border-radius: 0 3px 3px 0;
+    margin-bottom: 30px;
+}
+.book-list {
+    display: flex;
+    flex-direction: column;
+
+}
+.book-list h2 {
+    font-weight: 200;
+    margin-left: 30px;
+}
+.book-list ul {
+    list-style: none;
+}
+.book-list ul li {
+    margin-bottom: 50px;
+    border-left: 5px solid gainsboro;
+    padding: 5px 10px;
+    height: 60px;
+    line-height: 50px;
+    display: flex;
+}
+.book-list ul li button {
+    margin-top: 10px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(122, 25, 214);
+}
+.book-list ul li span:first-child {
+    width: 85%;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.add button {
+    border-radius: 0 3px 3px 0;
+}
+#addbook {
+    font-size: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 3px 0 0 3px;
+    border-right: none;
+    width: 300px;
+    height: 30px;
+}
+.result {
+    border: 1px solid green;
+    margin-right: 50px;
+}
+

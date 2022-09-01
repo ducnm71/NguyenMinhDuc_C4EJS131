@@ -5,10 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
     <title>App Book</title>
 </head>
 <body>
-    
+    <div class="bd">
+        <div class="header">
+            <h1>Reading List</h1>
+            <h2>Reading list in 2022</h2>
+            <div id="finds">
+                <input id="searchbook" type="text" placeholder="Search books..." list="search" >
+                <button>Search</button>
+            </div>
+            <datalist id="search">
+                
+            </datalist>
+        </div>
+        <div class="book-list">
+            <h2>Books to read</h2>
+            <ul>
+                <li>
+                    <span class="book">Basic Web programming</span>
+                    <button class="delete">Delete</button>
+                </li>
+                
+                <li>
+                    <span class="book">Fullstack Web programming</span>
+                    <button class="delete">Delete</button>
+                    
+
+                </li>
+                <li>
+                    <span class="book">Moblie App programming</span>
+                    <button class="delete">Delete</button>
+                    
+                </li>
+                <li>
+                    <span class="book">NodeJS programming</span>
+                    <button class="delete">Delete</button>
+                    
+                </li>
+            </ul>
+
+        </div>
+        <div class="add">
+            <input id="addbook" type="text" placeholder="Add a book...">
+            <button>Add</button>
+        </div>
+    </div>
 </body>
 <script src="main.js"></script>
 </html>

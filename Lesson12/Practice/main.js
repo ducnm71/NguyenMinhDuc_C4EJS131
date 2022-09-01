@@ -39,7 +39,6 @@ function init4 () {
 }
 function f2 () {
     window.location.reload()
-    par.location.reload()
 }
 
 function f1 () {
