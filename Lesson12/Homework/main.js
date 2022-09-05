@@ -8,6 +8,7 @@ list.addEventListener('click', (e) => {
         
     }
     search()
+    result()
 })
 
 //add
@@ -33,6 +34,7 @@ add.addEventListener('click', (e) => {
 
     }
     search()
+    result()
     
 })
 
@@ -52,33 +54,25 @@ datalist.innerHTML = str
 
 }
 search()
-/* đoạn dưới này em định làm là khi nhập tên sách vào xong 
-r ấn tìm thì cái phần sách đó sẽ có vòng xanh bao quanh 
-nma lúc ấn tìm thì nó chỉ ra mỗi cái đầu tiên thôi ạ
-phải làm như nào tiếp ạ?*/
-let finds = document.querySelector("#finds button")
-let suggestList = document.getElementsByClassName('book')
-let searchbook = document.querySelector('#searchbook')
-searchbook = suggestList
-let li = document.querySelectorAll('li')
-let span = document.querySelectorAll('.book')
 
-for(let i=0; i<suggestList.length;i++) {
-    if ( span[i].textContent === searchbook[i].textContent) {
-        finds.addEventListener('click', () => {
-            li[i].className = 'result'
-        })
-    }
-    break
+function result () {
+    let finds = document.querySelector("#finds button")
+    let suggestList = document.getElementsByClassName('book')
+    let li = document.querySelectorAll('li')
+    let span = document.querySelectorAll('.book')
+    
+    finds.addEventListener('click', () => {
+        let searchbook = document.querySelector('#searchbook')
+        for(let i=0; i<suggestList.length;i++) {
+            if ( span[i].textContent === searchbook.value) {
+                li[i].className = 'result'
+            }
+            else {
+                li[i].classList.remove('result')
+            }
+        }
+        searchbook.value = ""
+        
+    })
 }
-console.log(li); 
-
-
-
-// console.log(suggestList);
-
-// finds.addEventListener('change', function() {
-//     // console.log(find.value);
-//     suggestList.find(item => item == finds.value)
-//     console.log( suggestList.find(item => item === finds.value))
-// })
+result();
