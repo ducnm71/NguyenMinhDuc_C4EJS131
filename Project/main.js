@@ -87,3 +87,35 @@ var swiper = new Swiper(".vehicles-slider", {
         },
     },
     });
+
+
+    //localStorage
+    let regisbtn = document.getElementById("form")
+    regisbtn.addEventListener('submit', function (e) {
+        e.preventDefault();
+        let infor = {
+            "fullname": regisbtn.fullname.value,
+            "username": regisbtn.username.value,
+            "email": regisbtn.email.value,
+            "phone": regisbtn.phone.value,
+            "password": regisbtn.password.value,
+            "confirmpass": regisbtn.confirmpass.value,
+            "gender": regisbtn.gender.value
+        }
+    
+        
+        window.localStorage.setItem("infor", JSON.stringify(infor))
+    })
+    
+    let loginbtn = document.getElementById("login-form")
+    loginbtn.addEventListener('submit', function (e) {
+        e.preventDefault()
+        let in4 = {
+            "name": loginbtn.name.value,
+            "pass": loginbtn.psw.value,
+            "note": loginbtn.note.value
+        }
+    
+        window.localStorage.setItem("in4", JSON.stringify(in4))
+    })
+    
