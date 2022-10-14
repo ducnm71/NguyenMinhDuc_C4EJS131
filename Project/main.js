@@ -1,7 +1,10 @@
 let search = document.querySelector('.search-box');
-document.querySelector('#search-icon').onclick = () => {
+let search1 = document.querySelector('#search-icon')
+search1.addEventListener('click', (e) => {
+    e.defaultPrevented()
     search.classList.toggle('active');
-}
+})
+
 
 // Headers
 
@@ -90,20 +93,24 @@ var swiper = new Swiper(".vehicles-slider", {
 
 
     //localStorage
-    let regisbtn = document.getElementById("form")
+    let regisbtn = document.getElementById("regisbtn")
+    let fullname = document.getElementById("fullname")
+    let username = document.getElementById("username")
+    let email = document.getElementById("email")
+    let phone = document.getElementById("phone")
+    let password = document.getElementById("password")
+    let confirmpass = document.getElementById("confirmpass")
+
     regisbtn.addEventListener('submit', function (e) {
-        e.preventDefault();
+        e.preventDefault()
         let infor = {
-            "fullname": regisbtn.fullname.value,
-            "username": regisbtn.username.value,
-            "email": regisbtn.email.value,
-            "phone": regisbtn.phone.value,
-            "password": regisbtn.password.value,
-            "confirmpass": regisbtn.confirmpass.value,
-            "gender": regisbtn.gender.value
+            "fullname": fullname.value,
+            "username": username.value,
+            "email": email.value,
+            "phone": phone.value,
+            "password": password.value,
+            "confirmpass": confirmpass.value
         }
-    
-        
         window.localStorage.setItem("infor", JSON.stringify(infor))
     })
     
@@ -118,4 +125,3 @@ var swiper = new Swiper(".vehicles-slider", {
     
         window.localStorage.setItem("in4", JSON.stringify(in4))
     })
-    
